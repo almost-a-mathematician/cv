@@ -1,0 +1,46 @@
+body{
+    background-color: #F8F8F8!important;
+}
+
+.profile-wrapper{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    list-style: none;  
+}
+
+.social-links ul, li{
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+a:active {
+    color: #000000; 
+}
+
+a:visited {
+    color: #000000; 
+}
+
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.gr{
+    color:rgb(92, 113, 113);
+}
+
+.lan{
+    position:absolute;
+    margin-top: 5rem;
+    margin-left: 10rem;
+   
+}

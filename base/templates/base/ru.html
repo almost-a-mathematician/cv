@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Victoria Bogdanovich</title>
+</head>
+<body>
+    <div class="ram">
+        <a href="/" class="lan">EN</a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body profile-wrapper border-info">
+                    <img class="profile-pic" src="{% static 'imgs/victoriabogdanovich.png' %}" alt="">
+                    <hr>
+                    <h4>Виктория Богданович</h4>
+                    <p class="gr">Python Backend Developer</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>Студентка</h4>
+					<hr>
+					<p>Минского Государственного Колледжа Цифровых Технологий</p>
+
+                    <p>Нет коммерческого опыта</p>
+
+					<p>Но выполнила большое количество лабораторных работ по Python, JS, C++</p>
+
+					<p>В поиске стажровки для получения реального опыта разработки </p>
+
+                    <p>Свяжитесь со мной в одном из сервисов ниже</p>
+
+					<ul class="social-links">
+						<li><a href="https://github.com/almost-a-mathematician" target="blank"><img class="social" src="{% static 'imgs/github.png' %}">  https://github.com/almost-a-mathematician</a></li>
+                        <li><a href="https://www.linkedin.com/in/victoria-bogdanovich-91ba77243/" target="blank"><img class="social" src="{% static 'imgs/linkedin.png' %}">  https://www.linkedin.com/in/victoria-bogdanovich-91ba77243/</a></li>
+						<li><a href="https://t.me/nag8tsi" target="blank"><img class="social" src="{% static 'imgs/telegram.png' %}">  https://t.me/nag8tsi</a></li>
+					</ul>
+
+                    <p class="gr">almost.a.mathematician@gmail.com</p>
+
+                </div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Hard skills</h5>
+					<hr>
+					<p>Python/Django</p>
+                    <p>HTML/CSS</p>
+                    <p>Sqlite/Postgres</p>
+                    <p>Работаю над улучшением знаний по JS и Docker</p>
+                    <p>Английский B2</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Soft skills</h5>
+					<hr>
+                    <p>Способна быстро переключаться с одной задачи на другую без потери эффективности</p>
+                    <p>Адаптивность</p>
+					<p>Тайм-менеджмент</p>
+                    <p>Эмоциональный интеллект</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+    <style>
+        .lan{
+            position:absolute;
+            margin-top: 1.5rem;
+            margin-left: 84rem;
+            color: rgb(116, 177, 191);
+        }
+
+        .lan:active {
+            color:rgb(116, 177, 191); 
+        }
+
+        .lan:visited {
+            color:rgb(116, 177, 191); 
+        }
+
+        .lan:hover {
+            color:rgb(116, 177, 191);
+            text-decoration: none;
+        }
+
+        .social-links ul, li{
+            list-style-type: none;
+        }
+
+        .social-links ul, li{
+            list-style-type: none;
+        }
+
+        a:active {
+            color: #000000; 
+        }
+
+        a:visited {
+            color: #000000; 
+        }
+
+        a:hover {
+            color:black;
+            text-decoration: none;
+        }
+        </style>
+</body>
+</html>
